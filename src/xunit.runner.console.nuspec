@@ -15,13 +15,13 @@
     <developmentDependency>true</developmentDependency>
   </metadata>
   <files>
-    <file src="xunit.console\*.xslt" target="tools\" />
-    <file src="xunit.console\bin\Release\net452\win7-x64\xunit.abstractions.dll" target="tools\" />
-    <file src="xunit.console\bin\Release\net452\win7-x64\xunit.runner.reporters.desktop.dll" target="tools\" />
-    <file src="xunit.console\bin\Release\net452\win7-x64\xunit.runner.utility.desktop.dll" target="tools\" />
-    <file src="xunit.console\bin\Release\net452\win7-x64\xunit.console.exe" target="tools\" />
-    <file src="xunit.console\bin\Release\net452\win7-x64\xunit.console.exe.config" target="tools\" />
-    <file src="xunit.console\bin\Release_x86\net452\win7-x64\xunit.console.x86.exe" target="tools\" />
-    <file src="xunit.console\bin\Release_x86\net452\win7-x64\xunit.console.x86.exe.config" target="tools\" />
+    <file src="xunit.console\*.xslt"                                                        target="tools\" />
+    <file src="xunit.console\bin\Release\net452\win7-x64\xunit.abstractions.dll"            target="tools\" />
+    <file src="xunit.console\bin\Release\net452\win7-x64\xunit.runner.reporters.net452.dll" target="tools\" />
+    <file src="xunit.console\bin\Release\net452\win7-x64\xunit.runner.utility.net452.dll"   target="tools\" />
+    <file src="xunit.console\bin\Release\net452\win7-x64\xunit.console.exe"                 target="tools\" />
+    <file src="xunit.console\bin\Release\net452\win7-x64\xunit.console.exe.config"          target="tools\" />
+    <file src="xunit.console\bin\Release_x86\net452\win7-x64\xunit.console.x86.exe"         target="tools\" />
+    <file src="xunit.console\bin\Release_x86\net452\win7-x64\xunit.console.x86.exe.config"  target="tools\" />
   </files>
 </package>

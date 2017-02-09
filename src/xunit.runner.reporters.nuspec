@@ -23,8 +23,8 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="xunit.runner.reporters\bin\Release\net452\xunit.runner.reporters.desktop.dll" target="lib\net452\" />
+    <file src="xunit.runner.reporters\bin\Release\net452\xunit.runner.reporters.net452.dll" target="lib\net452\" />
 
-    <file src="xunit.runner.reporters\bin\Release\netstandard1.1\xunit.runner.reporters.dotnet.dll" target="lib\netstandard1.1\" />
+    <file src="xunit.runner.reporters\bin\Release\netstandard1.1\xunit.runner.reporters.netstandard11.dll" target="lib\netstandard1.1\" />
   </files>
 </package>

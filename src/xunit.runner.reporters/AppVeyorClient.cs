@@ -119,7 +119,7 @@ namespace Xunit.Runner.Reporters
             }
             catch (Exception ex)
             {
-                logger.LogError($"When sending '{method} {baseUri}' with body '{bodyString}', exception was thrown: {ex.Message}");
+                logger.LogError($"When sending '{method} {baseUri}' with body '{bodyString}', exception was thrown: {ex.ToString()}");
                 throw;
             }
         }
